@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Collapsible Demo</title>
+    <link href="demo.css" rel="stylesheet" media="all" />
+  </head>
+  <body>
+
+    <div id="main">
+      <h1>Collapsible Demo</h1>
+      <p>You can use several collapsibles objects on the same page. They are independants.</p>
+
+      <div class="collapsible">
+        <div class="collapse-container">
+          <div class="collapse-head">
+            <h2>Get started</h2>
+          </div>
+          <div class="collapse-content">
+            <h3>1/ Add scripts</h3>
+            <pre>
+&lt;script src="jquery.js">&lt;/script>
+&lt;script src="collapsible.js">&lt;/script>
+
+<b>&lt;!-- Initialize Collapsible --></b>
+&lt;script type="text/javascript">
+  $(document).ready(function() {
+
+    $('.collapsible').collapsible();
+
+  });
+&lt;/script></pre>
+
+          <h3>2/ Minimal HTML</h3>
+          <pre>
+&lt;div class="collapsible">
+
+  <b>&lt;!-- One... --></b>
+  &lt;div class="collapse-container">
+    &lt;div class="collapse-head">
+      ...
+    &lt;/div>
+    &lt;div class="collapse-content">
+      ...
+    &lt;/div>
+  &lt;/div>
+
+  <b>&lt;!-- Two... --></b>
+  &lt;div class="collapse-container">
+    &lt;div class="collapse-head">
+      ...
+    &lt;/div>
+    &lt;div class="collapse-content">
+      ...
+    &lt;/div>
+  &lt;/div>
+
+  ...
+
+&lt;/div></pre>
+          </div>
+        </div>
+        <div class="collapse-container">
+          <div class="collapse-head">
+            <h2>Extras</h2>
+          </div>
+          <div class="collapse-content">
+
+
+            <h3>Options</h3>
+            <pre>
+$(document).ready(function() {
+
+  $('.collapsible').collapsible({
+    classContainer: "collapse-container",
+    classHead     : "collapse-head",
+    classContent  : "collapse-content",
+    classOpen     : "collapse-open",
+    classClose    : "collapse-close",
+    speed         : 200
+  });
+
+});</pre>
+
+
+            <h3>CSS for beginners</h3>
+            <p><em>.collapse-close</em> is also availabled when the collapse is closed</p>
+            <pre>
+.collapse-container {
+  margin: 15px 0;
+  border: 1px solid #ddd;
+}
+.collapse-head {
+  background-color: #ddd;
+  cursor: pointer;
+  padding: 15px;
+}
+.collapse-head h2 {
+  font-size: 125%;
+  padding: 0;
+  margin: 0;
+}
+.collapse-content {
+  padding: 15px;
+}
+.collapse-container.collapse-open {
+  border: 1px solid #007489;
+}
+.collapse-container.collapse-open .collapse-head {
+  background-color: #007489;
+  color: #fff;
+}</pre>
+
+            <h3>CSS for bootstrap v3</h3>
+            <pre>
+.collapsible {
+  @extend .panel-group;
+}
+
+.collapse-container {
+  @extend .panel, .panel-default;
+}
+
+.collapse-head {
+  @extend .panel-heading, .panel-title;
+  cursor: pointer;
+}
+
+.collapse-content {
+  @extend .panel-collapse, .collapse, .panel-body;
+  border-top: 1px solid #ddd;
+}
+
+.collapse-open {
+  @extend .collapse.in;
+}</pre>
+
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="pull-left">
+          <a href="http://github.com" title="Github">Github</a>
+          &middot;
+          <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>
+        </div>
+        <div class="pull-right">
+          Developed by <a href="https://iteneo.fr">ITENEO</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="../collapsible.js"></script>
+    <script src="demo.js"></script>
+  </body>
+</html>
