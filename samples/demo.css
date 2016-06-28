@@ -26,10 +26,6 @@ p {
   float: right;
 }
 
-code {
-    background: hsl(220, 80%, 90%);
-}
-
 pre {
     white-space: pre-wrap;
     background: #daf9ff;
