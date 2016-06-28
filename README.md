@@ -3,8 +3,7 @@
 We have created our plugin for many reasons :
 
 * We find Bootstrap Collapse too complex
-* Flexibility
-* Custom HTML (some others plugins force to use some specific HTML tags for build the plugin, we disagree, that's why we use only classes).
+* Flexibility with custom HTML tags (some others plugins force to use some specific HTML tags for build the plugin, we disagree, that's why we use only classes).
 
 ## Get started
 
@@ -124,7 +123,7 @@ We have created our plugin for many reasons :
 
 For this moment, we have developed the functionalities for our usages, but we're open for improvements :
 
-* Collapse(s) opened at the beginning
+* Collapse(s) opened on start
 * Toggle mode
 * More flexibility for options: give the possibility to define HTML tags with classes instead of only classes
 * Use cookies for remember collapses items
@@ -140,8 +139,4 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.E. CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-OFTWARE.OTHER DEALINGS IN
-THE SOFTWARE.
-OFTWARE.ARE.. .ARE..E..
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
