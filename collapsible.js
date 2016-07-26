@@ -1,5 +1,5 @@
 /*
- * Collapsible v1.0
+ * Collapsible v1.1
  * https://github.com/Iteneo/Collapsible
  * MIT License
  */
