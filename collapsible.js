@@ -7,20 +7,20 @@
 (function($) {
 
   // init
-  $.fn.collapsible = function() {
+  $.fn.collapsible = function(params) {
 
     if(!this || this.lenght < 1) {
       return this;
     }
 
-    return createCollapsible(this);
+    return createCollapsible(this, params);
 
   };
 
   // create the initial collapsible
-  function createCollapsible(obj)
+  function createCollapsible(obj, params)
   {
-    var opts = $.fn.collapsible.defaults;
+    var opts = $.extend({}, $.fn.collapsible.defaults, params);
 
     obj.each(function() {
 
